@@ -93,9 +93,20 @@ Claude Code 内で:
 コンシェルジュ: 顧問担当を追加いたしました。専門外の質問の一次対応ができます。
 ```
 
+## Web ダッシュボード（オプション）
+
+ブラウザで会社プロフィール・各部署のTODO・月次KPIを俯瞰できます。
+
+```bash
+npx cc-concierge-dashboard
+```
+
+詳細: [cc-concierge-dashboard](https://github.com/texia-Inc/cc-concierge-dashboard)
+
 ## 動作要件
 
 - Claude Code（プラグイン対応版）
+- 任意: [cc-concierge-dashboard](https://github.com/texia-Inc/cc-concierge-dashboard) でブラウザ管理を使う場合は Node.js 18+
 
 ## ライセンス
 

@@ -137,6 +137,10 @@ trigger: /concierge
 > - コンシェルジュ（窓口）
 > - {{担当者リスト}}
 >
+> 💡 **ヒント**:
+> - ブラウザで会社全体を俯瞰: `npx cc-concierge-dashboard`
+> - Overview タブで部署のTODO、月次KPI タブで先月までの数字を確認できます
+>
 > 今後は `/concierge` で私にお声がけください。
 > ご依頼は私が承り、担当者に振り分けます。
 
@@ -166,7 +170,8 @@ trigger: /concierge
 | 壁打ち・相談・ブレスト   | 対話で深掘りし、まとまったら `concierge/notes/` に保存        |
 | メモ・クイックキャプチャ | `concierge/inbox/` にタイムスタンプ付きで記録                 |
 | 「今日の予定」           | `concierge/todos/YYYY-MM-DD.md` を表示                        |
-| 「数字」「KPI」          | `finance/monthly/` の直近データを表示                         |
+| 「数字」「KPI」          | `finance/monthly/` の直近データを表示。ブラウザで見たい時は `npx cc-concierge-dashboard` の月次KPIタブを案内 |
+| 「ダッシュボード」「ブラウザで見たい」「会社全体俯瞰」 | `npx cc-concierge-dashboard` を案内 |
 | 雑談・挨拶               | 控えめに丁寧で応答                                            |
 
 ### 担当者への振り分け
