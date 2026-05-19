@@ -1,0 +1,24 @@
+{
+  "name": "cc-concierge",
+  "owner": {
+    "name": "texia-Inc"
+  },
+  "metadata": {
+    "description": "中小企業社長のための仮想エージェントチーム。コンシェルジュが窓口、業種別に部署が編成される。"
+  },
+  "plugins": [
+    {
+      "name": "concierge",
+      "source": "./plugins/concierge",
+      "description": "中小企業社長のための仮想エージェントチーム。コンシェルジュが窓口となり、業種別の担当チームに依頼を振り分ける。",
+      "version": "0.1.0",
+      "author": {
+        "name": "texia-Inc"
+      },
+      "repository": "https://github.com/texia-Inc/cc-concierge",
+      "license": "MIT",
+      "category": "productivity",
+      "tags": ["concierge", "smb", "small-business", "organization", "japanese", "productivity"]
+    }
+  ]
+}
